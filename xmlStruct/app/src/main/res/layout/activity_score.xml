@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    android:id="@+id/textlabel"
+    android:background="#09F"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.jenkin.xmlstruct.MyScoreActivity">
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#09F"
+        android:dividerHeight="5dp"
+        android:layout_marginTop="4dp"
+        android:divider="#09F">
+    </ListView>
+
+</android.support.constraint.ConstraintLayout>

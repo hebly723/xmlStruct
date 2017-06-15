@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">xmlStruct</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image">image</string>
+    <string name="menu_quit">返回</string>
+    <string name="tag">hebly723</string>
+    <string name="title_activity_setting">SettingActivity</string>
+</resources>

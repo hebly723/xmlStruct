@@ -1,0 +1,323 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFF">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#FFFF">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:text="成绩分布区间分析"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragmentCircle2"
+        android:layout_weight="1"
+        android:background="#FFFF"
+        tools:ignore="InefficientWeight">
+    </FrameLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:dividerPadding="10dp"
+        android:showDividers="middle"
+        android:divider="#FFFF"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="3"
+                android:background="@color/failGrade"
+                />
+            <TextView
+                android:layout_weight="3.5"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:text="0分 - 59分"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/grade_number_fail"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text="sasasa"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <TextView
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:text = "人"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/grade_percent_fail"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:text="sasasa312312"
+                android:gravity="right"
+                android:textAlignment="gravity"
+
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:text = "%"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="3"
+                android:background="@color/passGrade"
+                />
+            <TextView
+                android:layout_weight="3.5"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:text="60分 - 69分"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/grade_number_pass"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text="sasasa"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <TextView
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:text = "人"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/grade_percent_pass"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:text="sasasa312312"
+                android:gravity="right"
+                android:textAlignment="gravity"
+
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:text = "%"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="3"
+                android:background="@color/averageGrade"
+                />
+            <TextView
+                android:layout_weight="3.5"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:text="70分 - 79分"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/grade_number_average"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text="sasasa"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <TextView
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:text = "人"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/grade_percent_average"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:text="sasasa312312"
+                android:gravity="right"
+                android:textAlignment="gravity"
+
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:text = "%"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="3"
+                android:background="@color/creditGrade"
+                />
+            <TextView
+                android:layout_weight="3.5"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:text="80分 - 89分"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/grade_number_credit"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text="sasasa"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <TextView
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:text = "人"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/grade_percent_credit"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:text="sasasa312312"
+                android:gravity="right"
+                android:textAlignment="gravity"
+
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:text = "%"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="3"
+                android:background="@color/excellentGrade"
+                />
+            <TextView
+                android:layout_weight="3.5"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:text="90分 - 100分"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/grade_number_excellent"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text="sasasa"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <TextView
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:text = "人"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:id="@+id/grade_percent_excellent"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text="sasasa312312"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+            <TextView
+                android:layout_weight="0.8"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+                android:text = "%"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="bottom|center_horizontal"
+        android:paddingLeft="30dp"
+        android:background="#2d924d"
+        tools:ignore="RtlHardcoded,RtlSymmetry">
+        <GridView
+            android:id="@+id/menu_circle_grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numColumns="auto_fit"
+            android:columnWidth="100dp"
+            android:stretchMode="columnWidth"
+            ></GridView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    android:id="@+id/textlabel2">
+
+    <EditText
+        android:id="@+id/editText22"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="姓名"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/editText23"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <EditText
+        android:id="@+id/editText23"
+        android:layout_width="104dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginLeft="63dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginStart="63dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="姓名"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/editText22"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/editText24"
+        tools:ignore="HardcodedText"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <EditText
+        android:id="@+id/editText24"
+        android:layout_width="52dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="167dp"
+        android:layout_marginStart="167dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="学号"
+        app:layout_constraintBottom_toBottomOf="@+id/editText23"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:ignore="HardcodedText"
+        tools:layout_constraintLeft_creator="1" />
+
+    <EditText
+        android:id="@+id/editText25"
+        android:layout_width="0dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="学号"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/editText24"
+        app:layout_constraintLeft_toRightOf="@+id/editText24"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="HardcodedText"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <EditText
+        android:id="@+id/editText26"
+        android:layout_width="55dp"
+        android:layout_height="43dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="成绩"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/editText28"
+        app:layout_constraintLeft_toLeftOf="@+id/editText22"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editText27"
+        android:layout_width="52dp"
+        android:layout_height="43dp"
+        android:background="@null"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="地址"
+        app:layout_constraintBottom_toBottomOf="@+id/editText29"
+        app:layout_constraintLeft_toLeftOf="@+id/editText24"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editText28"
+        android:layout_width="104dp"
+        android:layout_height="43dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="成绩"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/editText27"
+        app:layout_constraintLeft_toLeftOf="@+id/editText23"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/editText29"
+        android:layout_width="191dp"
+        android:layout_height="43dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="地址"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="@+id/editText25"
+        app:layout_constraintTop_toBottomOf="@+id/editText25"
+        tools:ignore="HardcodedText"
+        tools:layout_constraintTop_creator="1" />
+</LinearLayout>

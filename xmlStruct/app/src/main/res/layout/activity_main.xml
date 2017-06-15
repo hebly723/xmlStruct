@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textview11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    android:background="@drawable/sea">
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/ipconfig"
+        android:layout_gravity="right|top"
+        android:background="@drawable/ic_grade_setting"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_height="83dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="47dp"
+        android:layout_marginTop="63dp"
+        android:background="@null"
+        android:ems="10"
+        android:enabled="false"
+        android:inputType="textPersonName"
+        android:saveEnabled="false"
+        android:text="成绩管理系统"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="36sp"
+        android:typeface="serif"
+        tools:ignore="Deprecated,HardcodedText"
+        tools:text="成绩管理系统" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:gravity="right|center"
+            android:textAlignment="gravity"
+            android:text="用户名:"/>
+        <EditText
+            android:id="@+id/sample_text_0"
+            android:hint="例：张先生"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText,TextFields" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:gravity="right|center"
+            android:textAlignment="gravity"
+            android:text="密码:"/>
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:hint="例：1234567890"
+            android:inputType="textPassword"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:enabled="true"
+            android:inputType="textShortMessage"
+            android:text="用户名或密码输入错误"
+            android:layout_gravity="center"
+            android:textColor="@color/colorAccent"
+            android:visibility="invisible"
+            tools:ignore="Deprecated,HardcodedText"
+            tools:text="用户名或密码输入错误" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/login_info_save"
+            android:text="记住密码"/>
+        <Button
+            android:id="@+id/sample_button_0"
+            android:layout_margin="20dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:layout_gravity="center"
+            android:text="登录"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText"
+            tools:text="登录" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

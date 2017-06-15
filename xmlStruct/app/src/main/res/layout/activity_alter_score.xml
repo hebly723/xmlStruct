@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    android:id="@+id/textInput"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#BBB"
+        android:layout_margin="2dp"
+        android:divider="@drawable/linearlayout"
+        android:showDividers="middle"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="学号  "
+            android:background="#FFF"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginBottom="0.5dp"
+            android:layout_marginTop="0.5dp"
+            android:layout_weight="2"
+            android:textAlignment="gravity"
+            android:gravity="bottom|right"
+            android:textSize="30sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0.5dp"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginTop="0.5dp"
+            android:layout_weight="1"
+            android:background="#FFF"
+            android:hint="(*必填*)"
+            android:textSize="25sp"
+            tools:ignore="HardcodedText,RtlHardcoded,TextFields" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#BBB"
+        android:divider="@drawable/linearlayout"
+        android:showDividers="middle"
+        android:layout_margin="2dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="姓名  "
+            android:background="#FFF"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginBottom="0.5dp"
+            android:layout_marginTop="0.5dp"
+            android:layout_weight="2"
+            android:textAlignment="gravity"
+            android:gravity="bottom|right"
+            android:textSize="30sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <EditText
+            android:background="#FFFFFF"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginTop="0.5dp"
+            android:layout_marginBottom="0.5dp"
+            android:id="@+id/editText4"
+            android:layout_weight="1"
+            android:hint="(*必填*)"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25sp"
+            tools:ignore="HardcodedText,RtlHardcoded,TextFields" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#BBB"
+        android:divider="@drawable/linearlayout"
+        android:showDividers="middle"
+        android:layout_margin="2dp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="0.5dp"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginTop="0.5dp"
+            android:layout_weight="2"
+            android:background="#FFF"
+            android:gravity="bottom|right"
+            android:text="性别  "
+            android:textAlignment="gravity"
+            android:textSize="30sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <RadioGroup
+            android:id="@+id/editText5"
+            android:layout_weight="1"
+            android:background="#FFF"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginTop="0.5dp"
+            android:layout_marginBottom="0.5dp"
+            android:layout_marginEnd="0.5dp"
+            android:orientation="horizontal"
+            android:shadowColor="@color/colorPrimary"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RadioButton
+                android:id="@+id/alter_man"
+                android:text="男"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:textSize="20sp"
+                android:checked="true"
+                tools:ignore="HardcodedText" />
+            <RadioButton
+                android:id="@+id/alter_woman"
+                android:text="女"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:textSize="20sp"
+                tools:ignore="HardcodedText" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#BBB"
+        android:divider="@drawable/linearlayout"
+        android:showDividers="middle"
+        android:layout_margin="2dp">
+        <TextView
+            android:background="#FFFFFF"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginBottom="0.5dp"
+            android:layout_marginTop="0.5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="成绩  "
+            android:layout_weight="2"
+            android:textAlignment="gravity"
+            android:gravity="bottom|right"
+            android:textSize="30sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_weight="1"
+            android:background="#FFF"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginTop="0.5dp"
+            android:layout_marginBottom="0.5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:digits="0123456789"
+            tools:ignore="RtlHardcoded,TextFields" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#BBB"
+        android:divider="@drawable/linearlayout"
+        android:showDividers="middle"
+        android:layout_margin="2dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="地址  "
+            android:layout_weight="2"
+            android:textAlignment="gravity"
+            android:gravity="bottom|right"
+            android:background="#FFF"
+            android:layout_marginLeft="0.5dp"
+            android:layout_marginBottom="0.5dp"
+            android:layout_marginTop="0.5dp"
+            android:textSize="30sp"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Spinner
+            android:id="@+id/editText7"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:layout_marginRight="0.5dp"
+            android:layout_marginTop="0.5dp"
+            android:layout_marginBottom="0.5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:entries="@array/province"
+            tools:ignore="RtlHardcoded,TextFields"/>
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:context="com.example.jenkin.xmlstruct.AlterScoreActivity">
+
+        <Button
+            android:text="修改"
+            android:background="#FAF"
+            android:layout_width="match_parent"
+            android:layout_margin="2dp"
+            android:padding="1dp"
+            android:textSize="25sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:ignore="ButtonStyle,HardcodedText" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:background="#FAF"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="2dp"
+            android:padding="1dp"
+            android:textSize="25sp"
+            android:text="删除"
+            tools:ignore="ButtonStyle,HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout>
+
