@@ -273,7 +273,7 @@
         android:orientation="vertical"
         android:gravity="bottom|center_horizontal"
         android:paddingLeft="30dp"
-        android:background="#2d924d"
+        android:background="@color/colorPrimary"
         tools:ignore="RtlHardcoded,RtlSymmetry">
         <GridView
             android:id="@+id/menu_circle_grid"
