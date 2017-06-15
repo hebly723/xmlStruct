@@ -50,11 +50,28 @@
                 android:background="@color/failGrade"
                 />
             <TextView
-                android:layout_weight="3.5"
+                android:layout_weight="1.5"
                 android:layout_width="0dp"
                 android:layout_height="20dp"
-                android:textAlignment="center"
-                android:text="0分 - 59分"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text="0分"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text=" - "
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_weight="1.6"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text="59分"
                 tools:ignore="HardcodedText" />
             <TextView
                 android:id="@+id/grade_number_fail"
@@ -103,11 +120,28 @@
                 android:background="@color/passGrade"
                 />
             <TextView
-                android:layout_weight="3.5"
+                android:layout_weight="1.5"
                 android:layout_width="0dp"
                 android:layout_height="20dp"
-                android:textAlignment="center"
-                android:text="60分 - 69分"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text="60分"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text=" - "
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_weight="1.6"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text="69分"
                 tools:ignore="HardcodedText" />
             <TextView
                 android:id="@+id/grade_number_pass"
@@ -156,11 +190,28 @@
                 android:background="@color/averageGrade"
                 />
             <TextView
-                android:layout_weight="3.5"
+                android:layout_weight="1.5"
                 android:layout_width="0dp"
                 android:layout_height="20dp"
-                android:textAlignment="center"
-                android:text="70分 - 79分"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text="70分"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text=" - "
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_weight="1.6"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text="79分"
                 tools:ignore="HardcodedText" />
             <TextView
                 android:id="@+id/grade_number_average"
@@ -209,11 +260,28 @@
                 android:background="@color/creditGrade"
                 />
             <TextView
-                android:layout_weight="3.5"
+                android:layout_weight="1.5"
                 android:layout_width="0dp"
                 android:layout_height="20dp"
-                android:textAlignment="center"
-                android:text="80分 - 89分"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text="80分"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text=" - "
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_weight="1.6"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text="89分"
                 tools:ignore="HardcodedText" />
             <TextView
                 android:id="@+id/grade_number_credit"
@@ -262,11 +330,28 @@
                 android:background="@color/excellentGrade"
                 />
             <TextView
-                android:layout_weight="3.5"
+                android:layout_weight="1.5"
                 android:layout_width="0dp"
                 android:layout_height="20dp"
-                android:textAlignment="center"
-                android:text="90分 - 100分"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text="90分"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_weight="0.5"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text=" - "
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_weight="1.6"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:text="100分"
                 tools:ignore="HardcodedText" />
             <TextView
                 android:id="@+id/grade_number_excellent"

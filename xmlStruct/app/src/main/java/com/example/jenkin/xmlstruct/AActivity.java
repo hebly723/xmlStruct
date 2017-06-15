@@ -32,8 +32,8 @@ public class AActivity extends AppCompatActivity implements AdapterView.OnItemCl
     // 图片封装为一个数组
     private int[] icon =  {
             R.drawable.ic_menu_quit,
-            R.drawable.ic_menu_circle,
-            R.drawable.ic_menu_rect
+            R.drawable.ic_action_classmember,
+            R.drawable.ic_action_person
     };
     private String[] iconName = { "返回", "全体成绩", "我的成绩"};
     private ArrayList<CustomUser> jsonArray;
