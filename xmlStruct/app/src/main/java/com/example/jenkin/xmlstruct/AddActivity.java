@@ -64,6 +64,14 @@ public class AddActivity extends AppCompatActivity implements AdapterView.OnItem
 //        ArrayAdapter<String> aaData = new ArrayAdapter<String>(this);
 
     }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        getData();
+        sim_adapter.notifyDataSetChanged();
+    }
+
     public void getData()  {
 
         SharedPreferences sharedPreferences = getSharedPreferences("ListCustomGrade", MODE_PRIVATE);
@@ -73,6 +81,7 @@ public class AddActivity extends AppCompatActivity implements AdapterView.OnItem
         } catch (JSONException e) {
             e.printStackTrace();
         }
+        data_list.clear();
         for (int i=0; i<jsonArray.size();i++) {
             Map<String, Object> map = new HashMap<String, Object>();
             CustomUser cjson = jsonArray.get(i);
